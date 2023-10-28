@@ -68,7 +68,7 @@ Trailing and leading whitespace is also ignored.
 
 The following valid nbs.config file shows several valid entries with different consistency:
 
-```toml
+```properties
 #First valid comment
 # Second valid comment
 
@@ -80,7 +80,7 @@ thirdProperty    =    thirdProperty
 
 When parsed and re-saved the intended format is recreated:
 
-```toml
+```properties
 #First valid comment
 #Second valid comment
 
@@ -139,7 +139,7 @@ Console.WriteLine(config);
 
 Should yield the following output: **(NbsManager.Output = false)**
 
-```toml
+```properties
 nbs.config-------------------------------------
 author=crt.soluble
 library=nbs.config
