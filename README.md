@@ -27,6 +27,10 @@ There are no additional dependencies or included packages.
 
   `dotnet build`
 
+## Download Pre-Built Assembly
+
+Alternatively you can select a release package from the right and skip the compilation step if you only want the binary.
+
 ## Add to an Existing Project
 
 You must reference the compiled nbs.config assembly (nbs.config.dll) from your .csproj file. This can by modifying your .csproj file to include the following lines:
